@@ -15,30 +15,7 @@ export default class Chat extends React.Component {
     })
 
     // componentWillMount() {
-    //     for (let i = 0; i < data.Replies.length; i++) {
-    //         console.log(data.Replies[i].CreatedDate);
-    //         debugger
-
-    //         var id = data.From._id
-
-    //         if (data.To.id == UserID) {
-    //             id = this.state.userID
-    //         }
-
-    //         const obj = {
-    //             _id: Math.round(Math.random() * 1000000),
-    //             text: data.Replies[i].Reply,
-    //             createdAt: data.Replies[i].CreatedDate,
-    //             user: {
-    //                 _id: id,
-    //                 name: 'React Native',
-    //                 avatar: data.From.Profile.DisplayPicture
-    //             },
-    //             image: '',
-
-    //         }
-    //         arrMsg.push(obj);
-
+   
     //     };
 
 

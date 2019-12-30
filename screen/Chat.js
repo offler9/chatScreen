@@ -6,7 +6,7 @@ import SocketIOClient from 'socket.io-client'
 export default class Chat extends React.Component {
         state={
             messages:[],
-            uId:'',
+            // uId:'',
             userSay:''
         }
     
